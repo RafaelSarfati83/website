@@ -1,0 +1,108 @@
+   body {
+       background: grey;
+       margin: 0;
+   }
+   
+   header nav. logo a {
+       font-size: 35 px;
+       text-decoration: none;
+   }
+   
+   header nav {
+       display: flex;
+       position: absolute;
+       align-items: center;
+   }
+   
+   header nav ul {
+       display: flex;
+       position: absolute;
+       align-items: center;
+   }
+   
+   header nav li {
+       margin: 0 20px;
+       list-style: none;
+   }
+   
+   header nav li a {
+       text-decoration: none;
+       color: #ffff;
+       font-size: 20px;
+       transition: .5s;
+       padding: 0px 15px;
+   }
+   
+   header #hero .text-caption {
+       position: absolute;
+       top: 40%;
+       left: 0;
+       right: 0;
+       text-align: center;
+   }
+   
+   header #hero .text-caption h1 {
+       color: yellow;
+   }
+   
+   header #hero .text-caption p {
+       color: white;
+   }
+   
+   header #hero .text-caption button {
+       position: initial;
+       top: 0;
+       left: 0;
+       right: 0;
+       text-align: center;
+       padding: 15px;
+       border-radius: 5px;
+       color: grey;
+       background: yellow;
+   }
+   
+   main #Planes h1 {
+       display: flex;
+       justify-content: center;
+       position: relative;
+       bottom: 50%;
+       color: yellow;
+   }
+   
+   main #Planes p {
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       position: relative;
+       bottom: 15%;
+   }
+   
+   main #Planes .text-caption {
+       display: flex;
+       justify-content: space-around;
+   }
+   
+   main #Destinos .text-caption ul {
+       list-style: none;
+   }
+   
+   main #Destinos .text-caption li a {
+       text-decoration: none;
+       color: white;
+   }
+   
+   main #Destinos .text-caption h2 {
+       color: yellow;
+       display: flex;
+       justify-content: center;
+       position: relative;
+       bottom: 50%;
+   }
+   
+   main #Destinos .text-caption img {
+       position: absolute;
+   }
+   
+   footer {
+       background: yellow;
+   }
